@@ -1,0 +1,9 @@
+table likes : id | user | postid
+
+table pictures : id | image | text | user
+
+table comments : id | user | postid | comment
+
+table user : id ..
+
+:::

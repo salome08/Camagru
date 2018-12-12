@@ -1,0 +1,218 @@
+
+.header {
+   position:fixed;
+   background: Lightblue;
+   height:100px;
+   top:0;
+   left:0;
+   z-index: 1;
+   right:0;
+}
+.footer {
+   position:fixed;
+   background: Lightblue;
+   height:50px;
+   bottom:0;
+   left:0;
+   right:0;
+}
+
+/*---------- Gallery -----------*/
+
+.post {
+    display: inline;
+    position: relative;
+}
+.like {
+    display: inline;
+    position: absolute;
+    top: 77%;
+    float: left;
+    right: 300;
+}
+
+.comment {
+    display: inline;
+    position: absolute;
+    float: left;
+    top: 77%;
+    right: 71px;
+}
+
+.delete {
+    display: inline;
+    position: absolute;
+    float: left;
+    top: 77%;
+    left: 142px;
+}
+
+div#pagination {
+    position: fixed;
+    top: 85%;
+    left: 47%;
+}
+
+
+/*----------- UploadPic ------------*/
+
+.uploadform {
+    position: relative;
+    top: 200%;
+    margin: 2%;
+}
+
+canvas#mycanvas {
+    position: absolute;
+    /* display: inline; */
+    left: 42%;
+    /*max-width: 100%!important;*/
+    top: 10%;
+    /*width: 26%;*/
+}
+
+img#picuploaded {
+    position: absolute;
+    float: left;
+    display: inline;
+    top: 1%;
+}
+
+div#divupload {
+    position: relative;
+    top: 314%;
+    margin: 0 auto;
+    width: 97%;
+    height: 460%;
+    top: 224%;
+}
+
+form#uploadform {
+    position: absolute;
+    bottom: 4%;
+}
+
+/*----------- Membre ------------*/
+
+pre#preLog{
+   display: none;
+}
+
+
+div#overlay {
+    width: 31%;
+    position: absolute;
+    /* left: 3%; */
+    bottom: 25%;
+    z-index: 1;
+    margin: auto;
+}
+
+div#gallery {
+    background-color: #89c7d24a;
+    border-radius: 26px;
+    width: 20%;
+    height: 515%;
+    margin-left: auto;
+    top: 68%;
+    position: relative;
+    margin-top: 0%;
+}
+
+video#video {
+    /*width: 38px;*/
+}
+.cam {
+    position: relative;
+    top: -210%;
+    margin: 2%;
+}
+
+canvas#canvas {
+    position: absolute;
+    width: 15%;
+    right: 36%;
+    top: 0%;
+}
+
+img#imagepng {
+    /* margin: auto; */
+    width: 110%;
+    /* margin: -39px; */
+    margin-left: -111px;
+    margin-right: -119px;
+}
+
+img#imageoverlay {
+    width: 44%;
+    margin: 59px;
+}
+
+.filters {
+    position: absolute;
+    margin: 2%;
+    top: 82%;
+}
+
+/*--------------- BODY ----------------*/
+body {
+position: relative;
+top: 100px;
+/*left: 35%;*/
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 23%;
+font-family:"trebuchet ms",sans-serif;
+ }
+
+ img{
+   margin: 31px;
+ }
+
+ div#content{
+   margin-left: 34%;
+ width: 10%;
+ padding:15px 15px 15px 15px;
+ margin-bottom:10px;
+ }
+
+ fieldset{
+margin-left: 34%;
+ width: 10%;
+ padding:15px 15px 15px 15px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }
+
+.links {
+    margin-left: 34%;
+}
+
+legend {
+ color:#DF3F3F;
+ font-weight:bold
+ }
+
+ form {
+ background-color:#FAFAFA;
+ padding:10px;
+ width:280px;
+ }
+
+ input[type="password"], input[type="text"], input[type="submit"]{
+ background-color:#FFF3F3;
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+
+ input[type=submit]{
+ width:100px;
+ margin-left:87px;
+ margin-top: 10px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+
